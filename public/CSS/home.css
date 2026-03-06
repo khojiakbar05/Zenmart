@@ -40,6 +40,10 @@
        border-bottom: 2px solid #041e42;
 }
 
+.white_svg {
+       filter: brightness(0) invert(1);
+}
+
 /* Pagination */
 
 .container .pagination_box {
@@ -967,3 +971,255 @@
        text-align: left;
        text-decoration-line: line-through;
 }
+
+/* Event Frame */
+
+.home_page .event_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+
+       margin-top: 90px;
+       width: 100%;
+       height: 632px;
+       background-image: url('../images/icons/event_bg.png');
+       background-size: cover;
+}
+
+.event_frame .container {
+       flex-direction: row;
+       justify-content: center;
+}
+
+.container  .event_content_box {
+       width: 340px;
+       height: auto;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       
+}
+
+.event_content_box .event_title {
+       color: rgba(255, 255, 255, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 28px;
+       font-weight: 500;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.event_content_box .timer_wrapper {
+
+       display: flex;
+       flex-direction: row;
+   
+       margin: 30px 0;
+}
+
+.timer_wrapper .time_box {
+       width: 80px;
+       height: auto;
+
+       display: flex;
+       flex-direction: column;
+}
+
+.time_box strong {
+       color: rgba(255, 255, 255, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 28px;
+       font-weight: 500;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.time_box span {
+       color: rgba(255, 255, 255, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 28px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+
+.event_content_box a {
+       width: 140px;
+       height: 52px;
+       /* padding: 15px 35px; */
+
+       box-sizing: border-box;
+       border: 1px solid rgba(255, 255, 255, 1);
+       border-radius: 6px;
+       background: rgba(255, 255, 255, 1);
+
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: center;
+}
+
+.container .event_product_wrapper {
+       width: 930px;
+       height: auto;
+
+       display: flex;
+       flex-direction: row;
+}
+
+.event_product_wrapper .next_svg {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+}
+
+
+
+.event_product_wrapper .event_boxes {
+       width: 850px;
+       height: auto;
+       
+
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+}
+
+.event_boxes .event_box {
+       width: 205px;
+       height: 392px;
+       padding-left: 12px;
+       margin-right: 20px;
+
+       display: flex;
+       flex-direction: column;
+
+       border-radius: 6px;
+       background: rgba(255, 255, 255, 1);
+}
+
+.event_box img {
+       width: 100%;
+       height: 190px;
+
+       padding: 5px;
+       box-sizing: border-box;
+}
+
+.event_box a {
+       margin-top: 10px;
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 13px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+       text-transform: uppercase;
+}
+
+.event_box .review {
+       display: flex;
+       flex-direction: row;
+       margin-top: 10px;
+
+}
+
+.event_box .review img {
+       width: 9px;
+       height: 9px;
+       padding: 0;
+
+       margin-top: 5px;
+       margin-right: 3px;
+}
+
+.event_box .review .review_span {
+       margin-left: 10px;
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.event_box .event_name {
+       margin-top: 15px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 28px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.event_box .price {
+       display: flex;
+       flex-direction: row;
+
+       margin-top: 10px;
+}
+
+.event_box .price strong {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 28px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.event_box .price span  {
+       margin-top: 3px;
+       margin-left: 10px;
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+       text-decoration-line: line-through;
+}
+
+
+
+
