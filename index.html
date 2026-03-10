@@ -10,6 +10,11 @@
        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Jost:ital,wght@0,100..900;1,100..900&family=Updock&display=swap" 
               rel="stylesheet">
 
+       <link rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
        <link rel="stylesheet" href="./public/CSS/command.css">
        <link rel="stylesheet" href="./public/CSS/home.css">
 </head>
@@ -96,7 +101,7 @@
               </div>
        </div>
 
-       <div class="home_page">     
+       <div class="home_page">    
               <div class="header_frame">
                      <div class="container">
                             <div class="header_left">
@@ -220,39 +225,45 @@
                                    <div class="next_view_box">
                                           <img src="./public/images/icons/next.svg" alt="">
                                    </div>
+
                                    <div class="product_boxes">
-                                          <div class="product_box">
-                                                 <a href="">
-                                                        <div class="product_img_box" 
-                                                        style="background-image: url('./public/images/products/watch.png'); 
-                                                        background-size: cover;">
-                                                        <div class="hover_box">
-                                                               <button>Add to Cart</button>
-                                                        </div>       
-                                                 </div>
-                                                 </a>
-                                                 <div class="product_content_box">
-                                                        <span class="product_title">Samsung</span>
-                                                        <a href="">
-                                                               <p class="product_desc">
-                                                                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
-                                                               </p>
-                                                        </a>
-                                                        <div class="review_box">
-                                                               <img src="./public/images/icons/review.svg" alt="">
-                                                               <img src="./public/images/icons/review.svg" alt="">
-                                                               <img src="./public/images/icons/review.svg" alt="">
-                                                               <img src="./public/images/icons/review.svg" alt="">
-                                                               <img src="./public/images/icons/review.svg" alt="">
-                                                               <span>3,014 reviews</span>
-                                                        </div>
-                                                        <div class="price_box">
-                                                               <strong>$32.50</strong>
-                                                               <span>$32</span>
-                                                        </div>
+                                          <div class="swiper mySwiper">
+                                           <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                 <div class="product_box">
+                                                                                           <a href="">
+                                                                                                  <div class="product_img_box" 
+                                                                                                  style="background-image: url('./public/images/products/watch.png'); 
+                                                                                                  background-size: cover;">
+                                                                                                  <div class="hover_box">
+                                                                                                         <button>Add to Cart</button>
+                                                                                                  </div>       
+                                                                                           </div>
+                                                                                           </a>
+                                                                                           <div class="product_content_box">
+                                                                                                  <span class="product_title">Samsung</span>
+                                                                                                  <a href="">
+                                                                                                         <p class="product_desc">
+                                                                                                                Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                                                                                                         </p>
+                                                                                                  </a>
+                                                                                                  <div class="review_box">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <span>3,014 reviews</span>
+                                                                                                  </div>
+                                                                                                  <div class="price_box">
+                                                                                                         <strong>$32.50</strong>
+                                                                                                         <span>$32</span>
+                                                                                                  </div>
+                                                                                           </div>
                                                  </div>
                                           </div>
-                                          <div class="product_box">
+                                          <div class="swiper-slide">
+                                                 <div class="product_box">
                                                  <a href="">
                                                         <div class="product_img_box" 
                                                         style="background-image: url('./public/images/products/phone.png'); 
@@ -282,8 +293,10 @@
                                                                <span>$32</span>
                                                         </div>
                                                  </div>
-                                          </div>
-                                          <div class="product_box">
+                                                        </div>
+                                                 </div>
+                                                 <div class="swiper-slide">
+                                                        <div class="product_box">
                                                  <a href="">
                                                         <div class="product_img_box" 
                                                         style="background-image: url('./public/images/products/iRobot.png'); 
@@ -313,8 +326,10 @@
                                                                <span>$32</span>
                                                         </div>
                                                  </div>
-                                          </div>
-                                          <div class="product_box">
+                                                        </div>
+                                                 </div>
+                                                 <div class="swiper-slide">
+                                                        <div class="product_box">
                                                  <a href="">
                                                         <div class="product_img_box" 
                                                         style="background-image: url('./public/images/products/dyson.png'); 
@@ -344,7 +359,94 @@
                                                                <span>$32</span>
                                                         </div>
                                                  </div>
+                                                 </div>
                                           </div>
+                                          <div class="swiper-slide">
+                                                        <div class="product_box">
+                                                 <a href="">
+                                                        <div class="product_img_box" 
+                                                        style="background-image: url('./public/images/products/phone.png'); 
+                                                        background-size: cover;">
+                                                        <div class="hover_box">
+                                                               <button>Add to Cart</button>
+                                                        </div>       
+                                                 </div>
+                                                 </a>
+                                                 <div class="product_content_box">
+                                                        <span class="product_title">Sony</span>
+                                                        <a href="">
+                                                               <p class="product_desc">
+                                                                      Apple iphone 11 64GB Smartphone Black
+                                                               </p>
+                                                        </a>
+                                                        <div class="review_box">
+                                                               <img src="./public/images/icons/review.svg" alt="">
+                                                               <img src="./public/images/icons/review.svg" alt="">
+                                                               <img src="./public/images/icons/review.svg" alt="">
+                                                               <img src="./public/images/icons/review.svg" alt="">
+                                                               <img src="./public/images/icons/review.svg" alt="">
+                                                               <span>3,014 reviews</span>
+                                                        </div>
+                                                        <div class="price_box">
+                                                               <strong>$32.50</strong>
+                                                               <span>$32</span>
+                                                        </div>
+                                                 </div>
+                                                 </div>
+                                          </div>
+                                          </div>
+                                          <div class="swiper-slide">
+                                                 <div class="product_box">
+                                                                                           <a href="">
+                                                                                                  <div class="product_img_box" 
+                                                                                                  style="background-image: url('./public/images/products/watch.png'); 
+                                                                                                  background-size: cover;">
+                                                                                                  <div class="hover_box">
+                                                                                                         <button>Add to Cart</button>
+                                                                                                  </div>       
+                                                                                           </div>
+                                                                                           </a>
+                                                                                           <div class="product_content_box">
+                                                                                                  <span class="product_title">Samsung</span>
+                                                                                                  <a href="">
+                                                                                                         <p class="product_desc">
+                                                                                                                Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                                                                                                         </p>
+                                                                                                  </a>
+                                                                                                  <div class="review_box">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <img src="./public/images/icons/review.svg" alt="">
+                                                                                                         <span>3,014 reviews</span>
+                                                                                                  </div>
+                                                                                                  <div class="price_box">
+                                                                                                         <strong>$32.50</strong>
+                                                                                                         <span>$32</span>
+                                                                                                  </div>
+                                                                                           </div>
+                                                 </div>
+                                          </div>
+                                          <div class="swiper-pagination"></div>
+                                          </div>
+                                          
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
                                           <div class="next_view_box" style="transform: scaleX(-1);">
                                           <img src="./public/images/icons/next.svg" alt="">
                                    </div>
