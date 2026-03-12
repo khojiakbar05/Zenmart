@@ -1633,6 +1633,11 @@ font-family: var(--font);
 
 .footer_currency select {
     border: none;
+    outline: none;
+}
+
+.footer_credit_cards .cards_png img {
+       cursor: pointer;
 }
 
 

@@ -266,6 +266,7 @@ p {
        display: flex;
        flex-direction: row;
        width: 670px;
+       margin-top: 5px;
 }
 
 .navbar_frame .navbar_root_menu a {
@@ -279,6 +280,10 @@ p {
 
 .navbar_frame .navbar_root_menu a.title {
        color: #f5c34b;
+}
+
+.navbar_frame .sorting_menu {
+       margin-top: 5px;
 }
 
 .navbar_frame .sorting_menu span {
