@@ -1,0 +1,892 @@
+/* MAIN NAV FRAME */
+
+.checkout_frame .top_nav_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+
+       width: 100%;
+       height: auto;
+
+}
+
+.top_nav_frame .container {
+       flex-direction: row;
+       
+}
+
+.container .menus {
+       margin-top: 10px;
+
+       display: flex;
+
+}
+
+.container .menus a {
+       margin-right: 20px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.container .menus .exapt_menu a {
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+/* CHECKBOX FRAME */
+
+.checkout_frame .checkbox_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+
+       width: 100%;
+       height: auto;
+
+
+
+       .container {
+              flex-direction: column;
+              .checkout_table {
+                     width: 858px;
+                     height: auto;
+              }
+              .checkout_name {
+                     display: flex;
+                     flex-direction: row;
+                     align-items: center;
+                     justify-content: center;
+
+                     margin-top: 40px;
+
+                     span {
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: Medium;
+                            font-size: 28px;
+                            font-weight: 500;
+                            line-height: 40px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                     }
+              }
+
+              .checkout_table {
+                     display: flex;
+                     flex-direction: row;
+
+                     .bill_details {
+                            .bill_name {
+                                   margin-top: 30px;
+                                   span {
+                                   color: rgba(4, 30, 66, 1);
+
+                                   font-family: "Jost";
+                                   font-style: Medium;
+                                   font-size: 20px;
+                                   font-weight: 500;
+                                   line-height: 29px;
+                                   letter-spacing: 0%;
+                                   text-align: left;
+                            }
+                            }
+                            .first_name {
+                                   margin-top: 20px;
+
+                                   display: flex;
+                                   flex-direction: row;
+
+                                   label {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          line-height: 28px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+
+                                   input {
+                                          margin-right: 30px;
+                                          margin-top: 10px;
+
+                                          width: 413px;
+                                          height: 55px;
+
+                                          box-sizing: border-box;
+                                          border: 1px solid rgba(234, 234, 234, 1);
+                                          border-radius: 6px;
+                                          background: rgba(255, 255, 255, 1);
+
+                                          padding-left: 10px;
+                                          font-size: 16px;
+                                   }
+                            }
+                            .company_name {
+                                   margin-top: 20px;
+                                   label {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          line-height: 28px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+
+                                   input {
+                                          width: 858px;
+                                          height: 55px;
+
+                                          padding-left: 10px;
+                                          font-size: 16px;
+
+                                          box-sizing: border-box;
+                                          border: 1px solid rgba(234, 234, 234, 1);
+                                          border-radius: 6px;
+                                          background: rgba(255, 255, 255, 1);
+                                   }
+                            }
+                            .country_region {
+                                   margin-top: 20px;
+                                   label {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          line-height: 28px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+                                   select {
+                                          width: 858px;
+                                          height: 55px;
+
+                                          padding-left: 10px;
+                                          font-size: 16px;
+
+                                          box-sizing: border-box;
+                                          border: 1px solid rgba(234, 234, 234, 1);
+                                          border-radius: 6px;
+                                          background: rgba(255, 255, 255, 1);
+                                   }
+                            }
+                            .street_address {
+                            margin-top: 20px;
+
+                            label {
+                                   color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          line-height: 28px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                            }
+                            input {
+                                    width: 858px;
+                                          height: 55px;
+
+                                          padding-left: 10px;
+                                          font-size: 16px;
+
+                                          box-sizing: border-box;
+                                          border: 1px solid rgba(234, 234, 234, 1);
+                                          border-radius: 6px;
+                                          background: rgba(255, 255, 255, 1);
+                                   }
+                            }
+                            .orders {
+                                   margin-top: 40px;
+
+                                   .name {
+                                          margin-bottom: 20px;
+                                          span {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 20px;
+                                          font-weight: 500;
+                                          line-height: 29px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+                                   }
+
+                                   label {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          line-height: 28px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+
+                                   textarea {
+                                          margin-top: 20px;
+                                          padding: 20px;
+
+                                          width: 858px;
+                                          height: 257px;
+
+                                          display: flex;
+                                          flex-direction: row;
+                                          justify-content: flex-start;
+
+                                          box-sizing: border-box;
+                                          border: 1px solid rgba(234, 234, 234, 1);
+                                          border-radius: 6px;
+                                          background: rgba(255, 255, 255, 1);
+                                   }
+
+                            }
+                     }
+                     
+              }
+
+              .checkout_details {
+                     display: flex;
+                     flex-direction: column;
+                     margin-left: 50px;
+
+                     .order_table {
+                            width: 422px;
+                            height: 376px;
+
+                            box-sizing: border-box;
+                            border: 1px solid rgba(234, 234, 234, 1);
+                            border-radius: 6px;
+                            background: rgba(255, 255, 255, 1);
+
+                            .order_name {
+                                   margin-top: 20px;
+                                   margin-left: 25px;
+                                   span {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 20px;
+                                          font-weight: 500;
+                                          line-height: 29px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+                                   .chips {
+                                          display: flex;
+                                          flex-direction: row;
+
+                                          border-bottom: 1px solid rgba(234, 234, 234, 1);
+
+                                          .m1chip {
+                                                 margin-top: 10px;
+                                                 margin-bottom: 15px;
+                                                 color: rgba(4, 30, 66, 1);
+
+                                                 font-family: "Jos"t;
+                                                 font-style: normal;
+                                                 font-size: 15px;
+                                                 font-weight: 400;
+                                                 line-height: 22px;
+                                                 letter-spacing: 0%;
+                                                 text-align: left;
+                                          }
+
+                                          .m1chip_price {
+                                                 margin-top: 10px;
+                                                 margin-left: 30px;
+                                                 color: rgba(4, 30, 66, 1);
+
+                                                 font-family: "Jos"t;
+                                                 font-style: normal;
+                                                 font-size: 15px;
+                                                 font-weight: 400;
+                                                 line-height: 22px;
+                                                 letter-spacing: 0%;
+                                                 text-align: left;
+                                          }
+                                   }
+
+                                   .total {
+                                          display: flex;
+                                          flex-direction: row;
+
+                                          margin-top: 10px;
+
+                                          border-bottom: 1px solid rgba(234, 234, 234, 1);
+                                          
+                                          .sub {
+                                                        width: 300px;
+                                                        color: rgba(4, 30, 66, 1);
+
+                                                        font-family: "Jost";
+                                                        font-style: Medium;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                        line-height: 35px;
+                                                        letter-spacing: 0%;
+                                                        text-align: left;
+                                                 }
+                                          .total_price {
+                                                 
+                                                        color: rgba(4, 30, 66, 1);
+
+                                                        font-family: "Jost";
+                                                        font-style: Medium;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                        line-height: 35px;
+                                                        letter-spacing: 0%;
+                                                        text-align: left;
+                                          }       
+
+                                   }
+
+                            }
+
+                     }
+
+              }
+              .policy {
+                     display: flex;
+                     flex-direction: row;
+
+                     margin-top: 30px;
+
+                     span {
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: normal;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                     }
+                     input {
+                            margin-right: 10px;
+
+
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                     }
+                     
+              }
+              .order_btn {
+                            margin-top: 30px;
+
+                            width: 422px;
+                            height: 52px;
+
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: Medium;
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 0%;
+                            text-align: center;
+
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            box-sizing: border-box;
+                            border: 1px solid rgba(245, 195, 75, 1);
+                            border-radius: 6px;
+                            /* Button-Shadow */
+                            box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+                            background: rgba(245, 195, 75, 1);
+                     }
+              
+       
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+
+.checkout_frame .footer_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+       margin-top: 50px;
+       width: 100%;
+       height: 507px;
+
+       background: rgba(243, 245, 246, 1);
+}
+
+.footer_frame .container {
+       position: relative;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+.container .footer_contents {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+
+       margin-bottom: 80px;
+       border-bottom: 1px solid #eaeaea;
+}
+
+
+
+.footer_contents .footer_contact {
+       display: flex;
+       flex-direction: column;
+
+       width: 350px;
+       height: auto;
+}
+
+.footer_contact .contact_info {
+       display: flex;
+       flex-direction: row;
+}
+
+.contact_info .contact_info_number {
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_contents .footer_contact span {
+       margin-bottom: 30px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.contact_info .contact_info_number span {
+       margin-left: 30px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.contact_info .contact_info_number .name {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.contact_info_img {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+       width: 50px;
+       height: 60px;
+}
+
+.footer_customer_support .footer_customer_content {
+       display: flex;
+       flex-direction: column;
+
+}
+
+.footer_customer_support .footer_customer_content p {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+
+.footer_services .footer_service_content p {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_services {
+       display: flex;
+       flex-direction: column;
+}
+
+
+.footer_services span {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_services .footer_service_content p {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_customer_support {
+       display: flex;
+       flex-direction: column;
+
+       margin-right: 100px;
+}
+
+
+.footer_customer_support span {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_contents .footer_follow {
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_icons span {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_contents .footer_follow {
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_follow  {
+       margin-left: 100px;
+}
+
+.footer_icons .icons {
+       margin-bottom: 20px;
+}
+
+.footer_icons .icons i {
+       margin-top: 20px;
+       margin-right: 20px;
+       width: 20px;
+       height: 15px;
+       color: rgba(4, 30, 66, 1);
+
+       font-style: normal;
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 15px;
+       letter-spacing: 0%;
+       text-align: left;
+       text-transform: capitalize;
+}
+
+.footer_follow .apps {
+       margin-top: 20px;
+       margin-bottom: 20px;
+}
+
+.footer_follow .apps .ios {
+       margin-top: 28px;
+}
+
+.footer_follow .apps span {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_follow .apps strong {
+       margin-left: 12px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_contents .footer_credit_cards .footer_cards {
+       margin-left: 50px;
+
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_credit_cards .footer_cards {
+       margin-top: 100px;
+}
+
+.footer_credit_cards .footer_cards span {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_cards .cards_png {
+       margin-top: 16px;
+}
+
+/* .footer_contents .footer_bottom {
+       display: flex;
+       flex-direction: row;
+} */
+
+.container .footer_bottom {
+       display: flex;
+       flex-direction: row;
+}
+
+.footer_bottom .name {
+       position: absolute;
+       left: 20px;
+       display: flex;
+
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+       
+}
+
+.footer_bottom .privacy span {
+       margin-right: 20px;
+
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+
+
+.footer_currency {
+       position: relative;
+       left: 300px;
+       margin-right: 50px;
+       display: flex;
+       align-items: center;
+       gap: 30px;
+       padding: 8px 12px;
+       width: 187px;
+       height: 40px;
+
+       box-sizing: border-box;
+       border: 1px solid rgba(234, 234, 234, 1);
+       border-radius: 6px;
+       background: rgba(255, 255, 255, 1);
+
+}
+
+.footer_currency label {
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_currency select {
+    border: none;
+}

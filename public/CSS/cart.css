@@ -1,6 +1,6 @@
 /* NAV FRAME */
 
-.cart_frame .nav_frame {
+.checkout_frame .nav_frame {
   position: relative;
 
   display: flex;
@@ -517,7 +517,7 @@
        text-decoration-line: underline;
 }
 
-.table_button .continue {
+.table_button .continue a {
        margin-left: 135px;
 
        display: flex;
