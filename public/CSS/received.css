@@ -1,0 +1,720 @@
+/* MAIN NAV FRAME */
+
+.received_frame .top_nav_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+
+       width: 100%;
+       height: auto;
+
+}
+
+.top_nav_frame .container {
+       flex-direction: row;
+       
+}
+
+.container .menus {
+       margin-top: 10px;
+
+       display: flex;
+
+}
+
+.container .menus a {
+       margin-right: 20px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.container .menus .exapt_menu a {
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+/* Received Frame */
+
+.received_frame .info_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+
+       width: 100%;
+       height: auto;
+}
+
+.info_frame .container {
+       flex-direction: column;
+       justify-content: center;
+
+       .stick_btn {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+
+              .stick_btn_info {
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center;
+                     align-items: center;
+
+                     img {
+                            margin-top: 60px;
+                            margin-bottom: 20px;
+                            width: 80px;
+                            height: 80px;
+                     }
+                     strong {
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: Medium;
+                            font-size: 28px;
+                            font-weight: 500;
+                            line-height: 40px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                     }
+                     span {
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: normal;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                     }
+              }
+
+       }
+       .time_info {
+              margin-top: 40px;
+              margin-bottom: 30px;
+              height: 132px;
+
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              align-items: center;
+
+              box-sizing: border-box;
+              border-bottom: 1px dashed rgba(98, 105, 116, 1);
+              border-right: 1px dashed rgba(98, 105, 116, 1);
+              border-top: 1px dashed rgba(98, 105, 116, 1);
+              border-radius: 6px;
+              background: rgba(255, 255, 255, 1);
+
+              .order_number {
+                     display: flex;
+                     flex-direction: column;
+
+                     span {
+                            margin-bottom: 10px;
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: normal;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                     }
+                     strong {
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: Medium;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 28px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                     }
+              }
+       }
+       .order_info {
+              height: 511px;
+
+              box-sizing: border-box;
+              border: 1px solid rgba(234, 234, 234, 1);
+              border-radius: 6px;
+              background: rgba(255, 255, 255, 1);
+
+              .informations {
+                     padding-top: 38px;
+                     padding-left: 74px;
+                     padding-right: 74px;
+                     box-sizing: border-box;
+
+                     .order_info_name {
+                            display: flex;
+                            flex-direction: column;
+
+                            border-bottom: 1px solid rgba(234, 234, 234, 1);
+                            width: 1171px;
+
+                            strong {
+                                   margin-bottom: 18px;
+                                  color: rgba(4, 30, 66, 1);
+
+                                   font-family: "Jost";
+                                   font-style: Medium;
+                                   font-size: 20px;
+                                   font-weight: 500;
+                                   line-height: 29px;
+                                   letter-spacing: 0%;
+                                   text-align: left; 
+                            }
+                            span {
+                                   margin-bottom: 10px;
+                                   color: rgba(4, 30, 66, 1);
+
+                                   font-family: "Jost";
+                                   font-style: Medium;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 35px;
+                                   letter-spacing: 0%;
+                                   text-align: left;
+
+                                   /* width: 1171.75px;
+                                   height: 1px;
+                                   background: rgba(234, 234, 234, 1); */
+                            }
+                            .subtotal {
+                                   display: flex;
+                                   flex-direction: row;
+                                   justify-content: space-between;
+
+                                   .sub {
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: Medium;
+                                          font-size: 16px;
+                                          font-weight: 500;
+                                          line-height: 35px;
+                                          letter-spacing: 0%;
+                                          text-align: right;
+                                   }
+                            }
+                     }
+                     .mac_info {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            border-bottom: 1px solid rgba(234, 234, 234, 1);
+                            width: 1171px;
+
+
+                            .mac_info_name {
+                                   display: flex;
+                                   flex-direction: column;
+                                   margin-top: 10px;
+
+                                   span {
+                                          margin-bottom: 10px;
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: normal;
+                                          font-size: 15px;
+                                          font-weight: 400;
+                                          line-height: 22px;
+                                          letter-spacing: 0%;
+                                          text-align: left;
+                                   }
+                            }
+                            .mac_info_price {
+                                   margin-top: 10px;
+                                   display: flex;
+                                   flex-direction: column;
+                                   span {
+                                          margin-bottom: 10px;
+                                          color: rgba(4, 30, 66, 1);
+
+                                          font-family: "Jost";
+                                          font-style: normal;
+                                          font-size: 15px;
+                                          font-weight: 400;
+                                          line-height: 22px;
+                                          letter-spacing: 0%;
+                                          text-align: right;
+                                   }
+                            }
+                     }
+                     .sub_total {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+
+                             border-bottom: 1px solid rgba(234, 234, 234, 1);
+                            width: 1171px;
+
+                            span {
+                                   margin-top: 8px;
+                                   margin-bottom: 8px;
+                                   color: rgba(4, 30, 66, 1);
+
+                                   font-family: "Jost";
+                                   font-style: Medium;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 35px;
+                                   letter-spacing: 0%;
+                                   text-align: left;
+                            }
+                            strong {
+                                   color: rgba(4, 30, 66, 1);
+
+                                   font-family: "Jost";
+                                   font-style: Medium;
+                                   font-size: 16px;
+                                   font-weight: 500;
+                                   line-height: 35px;
+                                   letter-spacing: 0%;
+                                   text-align: right;
+                            }
+                     }
+              }
+
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+
+.received_frame .footer_frame {
+       position: relative;
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+       margin-top: 50px;
+       width: 100%;
+       height: 507px;
+
+       background: rgba(243, 245, 246, 1);
+}
+
+.footer_frame .container {
+       position: relative;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+.container .footer_contents {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+
+       margin-bottom: 80px;
+       border-bottom: 1px solid #eaeaea;
+}
+
+
+
+.footer_contents .footer_contact {
+       display: flex;
+       flex-direction: column;
+
+       width: 350px;
+       height: auto;
+}
+
+.footer_contact .contact_info {
+       display: flex;
+       flex-direction: row;
+}
+
+.contact_info .contact_info_number {
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_contents .footer_contact span {
+       margin-bottom: 30px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.contact_info .contact_info_number span {
+       margin-left: 30px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.contact_info .contact_info_number .name {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 15px;
+       font-weight: 500;
+       line-height: 22px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.contact_info_img {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+       width: 50px;
+       height: 60px;
+}
+
+.footer_customer_support .footer_customer_content {
+       display: flex;
+       flex-direction: column;
+
+}
+
+.footer_customer_support .footer_customer_content p {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+
+.footer_services .footer_service_content p {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_services {
+       display: flex;
+       flex-direction: column;
+}
+
+
+.footer_services span {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_services .footer_service_content p {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_customer_support {
+       display: flex;
+       flex-direction: column;
+
+       margin-right: 100px;
+}
+
+
+.footer_customer_support span {
+       margin-top: 10px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_contents .footer_follow {
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_icons span {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_contents .footer_follow {
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_follow  {
+       margin-left: 100px;
+}
+
+.footer_icons .icons {
+       margin-bottom: 20px;
+}
+
+.footer_icons .icons i {
+       margin-top: 20px;
+       margin-right: 20px;
+       width: 20px;
+       height: 15px;
+       color: rgba(4, 30, 66, 1);
+
+       font-style: normal;
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 15px;
+       letter-spacing: 0%;
+       text-align: left;
+       text-transform: capitalize;
+}
+
+.footer_follow .apps {
+       margin-top: 20px;
+       margin-bottom: 20px;
+}
+
+.footer_follow .apps .ios {
+       margin-top: 28px;
+}
+
+.footer_follow .apps span {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_follow .apps strong {
+       margin-left: 12px;
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_contents .footer_credit_cards .footer_cards {
+       margin-left: 50px;
+
+       display: flex;
+       flex-direction: column;
+}
+
+.footer_credit_cards .footer_cards {
+       margin-top: 100px;
+}
+
+.footer_credit_cards .footer_cards span {
+       color: rgba(4, 30, 66, 1);
+
+       font-family: var(--font);
+       font-style: Medium;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 26px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_cards .cards_png {
+       margin-top: 16px;
+}
+
+/* .footer_contents .footer_bottom {
+       display: flex;
+       flex-direction: row;
+} */
+
+.container .footer_bottom {
+       display: flex;
+       flex-direction: row;
+}
+
+.footer_bottom .name {
+       position: absolute;
+       left: 20px;
+       display: flex;
+
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+       
+}
+
+.footer_bottom .privacy span {
+       margin-right: 20px;
+
+       color: rgba(4, 30, 66, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+
+
+.footer_currency {
+       position: relative;
+       left: 300px;
+       margin-right: 50px;
+       display: flex;
+       align-items: center;
+       gap: 30px;
+       padding: 8px 12px;
+       width: 187px;
+       height: 40px;
+
+       box-sizing: border-box;
+       border: 1px solid rgba(234, 234, 234, 1);
+       border-radius: 6px;
+       background: rgba(255, 255, 255, 1);
+
+}
+
+.footer_currency label {
+       color: rgba(98, 105, 116, 1);
+
+       font-family: "Jost";
+       font-style: normal;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 40px;
+       letter-spacing: 0%;
+       text-align: left;
+}
+
+.footer_currency select {
+    border: none;
+}

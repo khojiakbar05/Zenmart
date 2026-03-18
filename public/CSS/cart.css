@@ -544,7 +544,7 @@
        box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
 }
 
-.table_button .update {
+.table_button .update a {
        margin-left: 20px;
 
        display: flex;
