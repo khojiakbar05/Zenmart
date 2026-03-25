@@ -1,0 +1,206 @@
+.login_frame {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+
+       width: 100%;
+       height: auto;
+}
+
+.login_frame .container {
+       flex-direction: column;
+       flex-direction: column;
+       margin-top: 200px;
+       width: 744px;
+       height: 831px;
+
+       box-sizing: border-box;
+       border: 1px solid rgba(234, 234, 234, 1);
+       border-radius: 6px;
+       box-shadow: 0px 10px 50px 0px rgba(4, 30, 66, 0.05);
+       background: rgba(255, 255, 255, 1);
+}
+
+.container .sign_in {
+       display: flex;
+       flex-direction: column;
+}
+
+.sign_in {
+       display: flex;
+       flex-direction: column;
+
+       margin-top: 57px;
+       padding-left: 68px;
+       padding-right: 68px;
+       box-sizing: border-box;
+
+       .sign_name {
+              span {
+                     color: rgba(4, 30, 66, 1);
+
+                     font-family: "Jost";
+                     font-style: Medium;
+                     font-size: 28px;
+                     font-weight: 500;
+                     line-height: 40px;
+                     letter-spacing: 0%;
+                     text-align: left;
+              }
+       }
+
+       .sign_username {
+              margin-top: 55px;
+              span {
+                     margin-top: 55px;
+                     color: rgba(4, 30, 66, 1);
+
+                     font-family: "Jost";
+                     font-style: Medium;
+                     font-size: 16px;
+                     font-weight: 500;
+                     line-height: 28px;
+                     letter-spacing: 0%;
+                     text-align: left;
+              }
+
+              input {
+                     margin-top: 15px;
+                     width: 608px;
+                     height: 72px;
+
+                     box-sizing: border-box;
+                     border: 1px solid rgba(4, 30, 66, 1);
+                     border-radius: 6px;
+                     box-shadow: 0px 10px 20px 0px rgba(4, 30, 66, 0.05);
+                     background: rgba(255, 255, 255, 1);
+
+                     padding: 30px;
+              }
+       }
+       .sign_password {
+              margin-top: 26px;
+
+              span {
+                     color: rgba(4, 30, 66, 1);
+
+                     font-family: "Jost";
+                     font-style: Medium;
+                     font-size: 16px;
+                     font-weight: 500;
+                     line-height: 28px;
+                     letter-spacing: 0%;
+                     text-align: left;
+              }
+              input {
+                     margin-top: 15px;
+                     width: 608px;
+                     height: 72px;
+
+                     box-sizing: border-box;
+                     border: 1px solid rgba(4, 30, 66, 1);
+                     border-radius: 6px;
+                     box-shadow: 0px 10px 20px 0px rgba(4, 30, 66, 0.05);
+                     background: rgba(255, 255, 255, 1);
+
+                     padding: 30px;
+              }
+       }
+       .sign_inp {
+              margin-top: 26px;
+              display: flex;
+              flex-direction: row;
+
+              input {
+                     width: 26px;
+                     height: 21px;
+                     color: rgba(4, 30, 66, 1)
+              }
+
+              span {
+                     margin-left: 3px;
+                     color: rgba(4, 30, 66, 1);
+
+                     font-family: "Jost";
+                     font-style: normal;
+                     font-size: 16px;
+                     font-weight: 400;
+                     line-height: 28px;
+                     letter-spacing: 0%;
+                     text-align: left;
+              }
+
+              strong a {
+                     margin-left: 330px;
+                     color: rgba(68, 50, 151, 1);
+
+                     font-family: "Jost";
+                     font-style: normal;
+                     font-size: 16px;
+                     font-weight: 400;
+                     line-height: 28px;
+                     letter-spacing: 0%;
+                     text-align: right;
+              }
+       }
+       .sign_login_btn {
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: center;
+                     align-items: center;
+
+                     margin-top: 33px;
+                     width: 608.12px;
+                     height: 52px;
+
+                     box-sizing: border-box;
+                     border: 1px solid rgba(245, 195, 75, 1);
+                     border-radius: 6px;
+                     /* Button-Shadow */
+                     box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+                     background: rgba(245, 195, 75, 1);
+
+                     span a {
+                            color: rgba(4, 30, 66, 1);
+
+                            font-family: "Jost";
+                            font-style: Medium;
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                     }
+       }
+
+       .sign_create_acc {
+              margin-top: 42px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+              span {
+                     color: rgba(4, 30, 66, 1);
+
+                     font-family: "Jost";
+                     font-style: Medium;
+                     font-size: 16px;
+                     font-weight: 500;
+                     line-height: 28px;
+                     letter-spacing: 0%;
+                     text-align: center;
+              }
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
