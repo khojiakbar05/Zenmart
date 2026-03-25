@@ -192,6 +192,137 @@
                      text-align: center;
               }
        }
+
+       .sign_or {
+              margin-top: 43.12px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              margin: 20px 0;
+       }
+       .sign_or::before,
+       .sign_or::after {
+              content: "";
+              flex: 1;
+              border-bottom: 1px solid #ccc;
+       }
+       .sign_or:not(:empty)::before {
+                     margin-right: .5em;
+       }
+       .sign_or:not(:empty)::after {
+                     margin-left: .5em;
+       }
+       
+       .sign_buttons {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+
+       }
+       .btn1 {
+              width: 132.56px;
+              height: 59.26px;
+
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              box-sizing: border-box;
+              border: 1px solid rgba(25, 103, 210, 1);
+              border-radius: 8px;
+
+              span {
+                     color: rgba(25, 103, 210, 1);
+
+                     font-family: "Font Awesome 5 Brands";
+                     font-style: normal;
+                     font-size: 14px;
+                     font-weight: 400;
+                     line-height: 15px;
+                     letter-spacing: 0%;
+                     text-align: left;
+                     text-transform: capitalize;
+              }
+       }
+
+       .btn2 {
+              width: 132.56px;
+              height: 59.26px;
+
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              box-sizing: border-box;
+              border: 1px solid rgba(217, 48, 37, 1);
+              border-radius: 8px;
+
+              span {
+                     color: rgba(217, 48, 37, 1);
+
+                     font-family: "Font Awesome 5 Brands";
+                     font-style: normal;
+                     font-size: 14px;
+                     font-weight: 400;
+                     line-height: 15px;
+                     letter-spacing: 0%;
+                     text-align: left;
+                     text-transform: capitalize;
+              }
+       }
+
+       .btn3 {
+              width: 132.56px;
+              height: 59.26px;
+
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              box-sizing: border-box;
+              border: 1px solid rgba(45, 154, 220, 1);
+              border-radius: 8px;
+
+              span {
+                     color: rgba(45, 154, 220, 1);
+
+                     font-family: "Font Awesome 5 Brands";
+                     font-style: normal;
+                     font-size: 16px;
+                     font-weight: 400;
+                     line-height: 17px;
+                     letter-spacing: 0%;
+                     text-align: left;
+                     text-transform: capitalize;
+              }
+       } 
+       
+       .btn4 {
+              width: 132.56px;
+              height: 59.26px;
+
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              box-sizing: border-box;
+              border: 1px solid rgba(4, 30, 66, 1);
+              border-radius: 8px;
+
+              span {
+                     color: rgba(4, 30, 66, 1);
+
+                     font-family: "Font Awesome 5 Brands";
+                     font-style: normal;
+                     font-size: 18px;
+                     font-weight: 400;
+                     line-height: 20px;
+                     letter-spacing: 0%;
+                     text-align: left;
+                     text-transform: capitalize;
+              }
+       }
+
 }
 
 
